@@ -4,6 +4,8 @@ A browser-based mystery game that teaches Git by having players investigate a st
 
 **Status:** Early development. The name is a working title.
 
+**Product brief:** Read the [product brief](docs/product-brief.md) for the problem, target user, goals, and success metrics.
+
 ## Why this exists
 
 Many students learn basic Git in class, but not what to do when something goes wrong: a commit on the wrong branch, work that seems lost, or a secret pushed to a repository. Those skills usually get learned through trial and error or scattered pages online. This game teaches them before the panic happens.
@@ -31,11 +33,9 @@ Download or clone the repository, then open `index.html` in a browser.
 
 ## Project docs
 
-- [One-pager](docs/one-pager.md): the problem, target user, goals, and success metrics
+- [Product brief](docs/product-brief.md): the problem, target user, goals, and success metrics
 
 More docs, including a decision log and research findings, will be added as the project progresses.
 
 ## License
-
-See [LICENSE](LICENSE).
 

@@ -1,4 +1,4 @@
-# One-pager: Git mystery game
+# Product brief: Git mystery game
 
 **Owner:** Jameelah Mercer
 **Status:** Discovery
