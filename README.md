@@ -34,8 +34,10 @@ Download or clone the repository, then open `index.html` in a browser.
 ## Project docs
 
 - [Product brief](docs/product-brief.md): the problem, target user, goals, and success metrics
+- [Decision log](docs/decision-log.md): the major decisions, the options considered, and why each choice was made
 
-More docs, including a decision log and research findings, will be added as the project progresses.
+More docs, including research findings, will be added as the project progresses.
 
 ## License
 
+See [LICENSE](LICENSE).
