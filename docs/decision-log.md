@@ -1,10 +1,6 @@
 # Decision log
 
-This log records the major decisions on this project: the context, the options considered, what was chosen and why, and what would cause the decision to be revisited.
-
-**How to use it:** Add new decisions at the bottom with the next number. Don't delete or rewrite old entries. If a decision changes, add a new entry and mark the old one as "Superseded by #N," so the history of the project's thinking stays visible.
-
-The first six decisions were made during early planning, before this log was started, and were recorded here in October 2026.
+The major decisions on this project: the options considered, what was chosen and why, and what would cause each decision to be revisited. Decisions 1–6 were made during early planning and recorded here in October 2026.
 
 ---
 
@@ -153,6 +149,8 @@ The first six decisions were made during early planning, before this log was sta
 ---
 
 ## Template for new decisions
+
+Add new decisions at the bottom with the next number. If a decision changes, add a new entry and mark the old one "Superseded by #N" instead of editing it.
 
 ```markdown
 ## N. Short title of the decision
