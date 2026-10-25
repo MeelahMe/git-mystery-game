@@ -2,7 +2,7 @@
 
 **Owner:** Jameelah Mercer
 **Status:** Discovery
-**Last updated:** October 9, 2026
+**Last updated:** October 24, 2026
 **Name:** Working title (`git-mystery-game`)
 
 ## Problem
@@ -25,14 +25,15 @@ The same student may be in panic mode before a deadline and in curious mode on a
 
 ## Proposed solution
 
-A browser-based mystery game. Players investigate a story set inside a repository, and each clue requires a Git skill to uncover.
+A browser-based mystery game with time travel. Players solve the mystery by moving through a repository's timeline, and each clue requires a Git skill to uncover.
 
 - **Story drives learning:** commands like `git log`, `git show`, `git reflog`, and `git blame` are the player's investigation tools.
+- **Time travel makes Git intuitive:** players visit past moments, uncover erased timelines, and repair the timeline. Git's real safety rules become the rules of the time-travel world.
 - **Teach before testing:** each skill is introduced in a short lesson, followed by a quick check, before the player has to use it.
 - **Low friction:** players type real Git commands into a simulated terminal in the browser. No install or account required.
 - **Visual feedback:** a live commit map shows what each command did.
 
-The first story is planned to follow a new intern the night before launch, piecing together what happened from the repository. A later chapter covers security: what to do when a secret is pushed to a repository.
+The first story is planned to follow a new intern the night before launch, replaying the night moment by moment through the repository's history to find out what happened, then repairing the timeline before morning. A later chapter covers security: what to do when a secret is pushed to a repository.
 
 ## Goals
 
@@ -65,7 +66,10 @@ Targets will be set before launch, once the playtest shows what's realistic.
 | Learn Git Branching | Visual lessons on branching concepts | Focuses on recovering from real mistakes, told through a story |
 | Oh My Git! | A game for learning Git | Browser-based with no install, and story-driven |
 | GitHub Skills | Hands-on courses in real repositories | Lower friction, and built around mistakes and investigation |
+| Gitstery | A Git murder mystery played by cloning a repository | Built for beginners, teaches as players go, and runs in the browser. Gitstery is for intermediate users and doesn't teach Git |
 | SQL Murder Mystery | Teaches SQL through a mystery | Inspiration for the format, applied to Git |
+
+Gitstery is the closest competitor, so "story-driven" alone isn't a differentiator. The differentiator is the combination: a mystery that teaches beginners, in the browser, focused on recovering from real mistakes. See the [competitive analysis](research/competitive-analysis.md) for details.
 
 ## Risks and assumptions
 
@@ -81,11 +85,11 @@ Targets will be set before launch, once the playtest shows what's realistic.
 - Which Git mistakes are most common for students? (The survey will answer this.)
 - Which mistakes should chapter 1 cover?
 - How will gameplay data be collected without accounts?
+- Is the time travel figurative (a grounded story where Git works like a time machine) or literal (the repository really is a time machine)?
 - What should the product be called?
 
 ## Next steps
 
-1. Launch the discovery survey in SJSU club Discords.
-2. Start a decision log.
-3. Compare alternatives in more depth.
-4. Write the MVP spec for chapter 1 based on survey results.
+1. Collect discovery survey responses from SJSU club Discords.
+2. Add notes from playing each alternative to the competitive analysis.
+3. Write the MVP spec for chapter 1 based on survey results.
