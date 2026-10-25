@@ -148,6 +148,35 @@ The major decisions on this project: the options considered, what was chosen and
 
 ---
 
+## 7. Combine the mystery with time travel
+
+**Status:** Accepted
+**Date:** October 24, 2026
+**Builds on:** #6
+
+**Context:** After choosing a mystery format, other themes were considered to see whether a different gameplay concept would map onto Git better, including a garden, a rail network, a writers' room, and time travel. Time travel was the strongest fit for Git's concepts, especially recovering from mistakes.
+
+**Options considered:**
+- Mystery only
+- A different theme, such as a garden, rail network, or writers' room
+- Mystery combined with time travel
+
+**Decision:** Combine the mystery with time travel. Players solve the mystery by moving through the repository's timeline: investigating history, visiting past moments, uncovering erased timelines, and repairing the timeline. Players still type real Git commands, and the time-travel theme shapes the story and visuals.
+
+**Why:**
+- Investigating Git history already is moving through time, so time travel gives the mystery a mechanic instead of adding a second premise.
+- Git's safety rules become the rules of the time-travel world. Visiting the past is safe. Changing the past without creating a timeline (committing in detached HEAD without a branch) means losing that work. Rewinding erases the future, but the reflog remembers. Rewriting a timeline others have seen causes paradoxes, which is why reverting is safer than resetting on shared branches.
+- Time travel fits recovery from mistakes, the game's core topic, better than the other themes considered.
+- Players keep typing real commands, so nothing has to be translated back into real Git.
+
+**Tradeoffs:** Combining two concepts could muddle the story if the time-travel elements aren't tied tightly to Git.
+
+**Open question:** Is the time travel figurative (a grounded story where Git works like a time machine) or literal (the repository really is a time machine in the story)?
+
+**Revisit if:** Playtesters find the time-travel framing confusing, or it makes it harder to connect what they learn to real Git.
+
+---
+
 ## Template for new decisions
 
 Add new decisions at the bottom with the next number. If a decision changes, add a new entry and mark the old one "Superseded by #N" instead of editing it.
